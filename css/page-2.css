@@ -141,7 +141,7 @@ section {
 	background: #fff;
 }
 
-.main-search .form {
+.main-search .form{
 	max-width: 80%;
 	margin: auto;
 }
@@ -189,3 +189,12 @@ section {
 	padding: 17px 0;
 }
 /* ===//end of footer css === */
+
+
+/* responsive */
+
+@media (max-width: 400px) {
+	.main-search .form .main-btn{
+		width: 250px;
+	}
+}
